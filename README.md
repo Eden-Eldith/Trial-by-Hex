@@ -1,10 +1,14 @@
 **Fork it - Mess with it - Change the models - Change the prompts c: - Create your own council!**
 
+![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![OpenRouter](https://img.shields.io/badge/API-OpenRouter-purple.svg)
+
 # Trial by Hex
 
 **Multi-Model Blind Peer Review System**
 
-Submit your documents to multiple AI models for comprehensive, unbiased peer review. Each reviewer brings a unique perspective, ensuring thorough analysis from technical rigor to ethical considerations. Then Claude Opus 4.5 will collect and weigh up each response into a meta-review.
+Submit your documents to multiple AI models for comprehensive, unbiased peer review. Each reviewer brings a unique perspective, ensuring thorough analysis from technical rigor to ethical considerations. Then Claude Opus 4.5 synthesizes each response into a meta-review.
 
 ## Features
 
@@ -107,38 +111,73 @@ The review output includes:
 
 2. **Individual Reviews** - Full feedback from each reviewer
 
+### Example Output Structure (Standard version)
+
+```markdown
+## High Consensus (4+ reviewers agree)
+[Issues most reviewers flagged]
+
+## Moderate Consensus (2-3 reviewers)
+[Issues some reviewers noted]
+
+## Minority Concerns (1 reviewer, but substantive)
+[Individual concerns worth considering]
+
+## Strengths (what reviewers praised)
+[Positive feedback]
+
+## VERDICT
+PASS: Ready for publication with minor edits
+REVISE: Needs significant revision, re-review recommended
+REJECT: Fundamental issues need addressing
+```
+
 ### Example Output Structure (Plus version)
 
 ```markdown
-## CRITICAL ISSUES (Consensus)
-- [Issues flagged by multiple reviewers]
+## CRITICAL ISSUES (Consensus across multiple reviewers)
+[Issues flagged by 4+ reviewers - these are blockers]
 
-## SIGNIFICANT CONCERNS
-- [Important issues to address]
+## SIGNIFICANT CONCERNS (2-3 reviewers)
+[Important issues worth addressing]
 
-## STRENGTHS
-- [What reviewers praised]
+## CONSIDERATIONS (Single reviewer, but substantive)
+[Individual concerns that deserve thought]
+
+## STRENGTHS (What reviewers praised)
+[Positive consensus]
 
 ## LOGICAL/FORMAL ISSUES
-- [From the Logical Consistency Reviewer]
+[From the Logical Consistency Reviewer - Godelian concerns, self-reference issues]
 
 ## LINGUISTIC CLARITY
-- [From the Semantic Analyst]
+[From the Semantic Analyst - language bewitchments, definition problems]
 
 ## ETHICAL CONSIDERATIONS
-- [From the Ethical Alignment Sentinel]
+[From the Ethical Alignment Sentinel - bias, impact, safety]
 
 ## IMPLEMENTATION FEASIBILITY
-- [From the Systems Architect]
+[From the Systems Architect - can it be built?]
+
+## INTERDISCIPLINARY CONNECTIONS
+[From the Interdisciplinary Catalyst - missed connections, synthesis opportunities]
+
+## STEEL MANNED VERSION
+[From the Steel Man Advocate - the strongest form of the argument]
 
 ## VERDICT
-Technical Quality: 4/5
-Logical Coherence: 4/5
-Ethical Alignment: 5/5
-Feasibility: 3/5
-Novelty: 4/5
+**Technical Quality:** ⭐⭐⭐⭐☆
+**Logical Coherence:** ⭐⭐⭐⭐☆
+**Ethical Alignment:** ⭐⭐⭐⭐⭐
+**Feasibility:** ⭐⭐⭐☆☆
+**Novelty:** ⭐⭐⭐⭐☆
 
-Overall: REVISE
+**Overall:** REVISE
+
+**Priority Actions:**
+1. [Most important fix]
+2. [Second priority]
+3. [Third priority]
 ```
 
 ## Requirements
@@ -215,3 +254,5 @@ Contributions welcome! Feel free to:
 ---
 
 *"Six reviewers stand in judgment. None know whose work they judge. Let the ideas speak for themselves."*
+
+<p align="center">Made with 🧠 by humans and AIs in collaboration</p>
