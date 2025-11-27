@@ -2,7 +2,7 @@
 
 **Multi-Model Blind Peer Review System**
 
-Submit your documents to multiple AI models for comprehensive, unbiased peer review. Each reviewer brings a unique perspective, ensuring thorough analysis from technical rigor to ethical considerations.
+Submit your documents to multiple AI models for comprehensive, unbiased peer review. Each reviewer brings a unique perspective, ensuring thorough analysis from technical rigor to ethical considerations. Then Claude Opus 4.5 will collect and weigh up each response into a meta-review.
 
 ## Features
 
