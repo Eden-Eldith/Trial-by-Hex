@@ -166,7 +166,7 @@ Output format:
 [Specific rewrites for clarity]"""
     },
     {
-        "model": "openai/gpt-5.1",
+        "model": "anthropic/claude-haiku-4.5",
         "name": "The Ethical Alignment Sentinel",
         "persona": """ethical analyst focused on bias, societal impact, and safety.
 
