@@ -1,3 +1,5 @@
+**Fork it - Mess with it - Change the models - Change the prompts c: - Create your own council!**
+
 # Trial by Hex
 
 **Multi-Model Blind Peer Review System**
