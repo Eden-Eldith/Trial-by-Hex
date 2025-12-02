@@ -1,7 +1,7 @@
 **Fork it - Mess with it - Change the models - Change the prompts c: - Create your own council!**
 
 ![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![OpenRouter](https://img.shields.io/badge/API-OpenRouter-purple.svg)
 
 # Trial by Hex
@@ -233,10 +233,15 @@ The scripts automatically fall back to cheaper models. If issues persist, check 
 The scripts use UTF-8 encoding. Ensure your input documents are saved with UTF-8 encoding.
 
 ## License
+**License Change: 2nd December 2025**
 
-MIT License - Copyright 2025 Eden_Eldith
+As of 2nd December 2025, Trial by Hex is licensed under the **GNU General Public License v3.0**.
 
-See [LICENSE](LICENSE) for details.
+If you downloaded Trial by Hex prior to this date (27th November - 1st December 2025), that copy remains covered under the MIT License that was included at the time. All I ask is that you follow the MIT agreement and credit me.
+
+All downloads from 2nd December 2025 onwards are licensed under GPLv3. This means any derivative works must also be open source under GPLv3.
+
+See the [LICENSE](LICENSE) file for full terms.
 
 ## Authors
 
@@ -253,6 +258,8 @@ Contributions welcome! Feel free to:
 
 ---
 
-*"Six reviewers stand in judgment. None know whose work they judge. Let the ideas speak for themselves."*
-
-<p align="center">Made with 🧠 by humans and AIs in collaboration</p>
+<p align="center">"Six reviewers stand in judgment." </p>
+<p align="center">"None know whose work they judge." </p>
+<p align="center">"Let the ideas speak for themselves." </p>
+<p align="center">Made by humans and AIs in collaboration </p>
+<p align="center">Copyright (C) 2025 Eden_Eldith (P.C. O'Brien) c: </p>
