@@ -261,5 +261,5 @@ Contributions welcome! Feel free to:
 <p align="center">"Six reviewers stand in judgment." </p>
 <p align="center">"None know whose work they judge." </p>
 <p align="center">"Let the ideas speak for themselves." </p>
-<p align="center">Made by humans and AIs in collaboration </p>
+<p align="center">Made by a human and AI in collaboration </p>
 <p align="center">Copyright (C) 2025 Eden_Eldith (P.C. O'Brien) c: </p>
